@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tick line {
+  stroke: #C0C0BB;
+}
+.tick text {
+  fill: #635F5D;
+}
+.marks circle {
+  fill: #137b80;
+}
+.marks path {
+  stroke: #137b80;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.axis-label {
+  font-size: 1.5em;
+  fill: #635F5D;
+}
+circle {
+  fill: #137b80;
+}

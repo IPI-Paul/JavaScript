@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vega-Lite API Template</title>
+  <script src="http://localhost:8080/JavaScript/IPI/js/vega-5.4.0.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/vega-lite-4.0.0.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/vega-lite-api-0.1.0.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/vega-tooltip-0.19.1.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/d3-5.11.0.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/IPI/script.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="reload('http://localhost:8080/JavaScript/D3_DataViz_2021/');">
+  <div class="container">
+    <select id="sel" onChange="changeSrc(selectedIndex, value);">
+      <option value="">Select and Plot type</option>
+      <option value="./js/hp vs qsec/bundle.js">Horsepower vs Acceleration</option>
+      <option value="./js/stdMarkpoints/bundle.js">Horsepower vs Acceleration with Standard Markpoints</option>
+      <option value="./js/hp vs disp/bundle.js">Horsepower vs Dsiplacement</option>
+      <option value="./js/hp vs disp by origin/bundle.js">Horsepower vs Dsiplacement by Origin</option>
+      <option value="./js/hp vs mpg/bundle.js">Horsepower vs Miles per Gallon</option>
+      <option value="./js/hp vs origin/bundle.js">Horsepower vs origin</option>
+      <option value="./js/hp vs weight/bundle.js">Horsepower vs Weight</option>
+      <option value="./js/hp vs year/bundle.js">Horsepower vs Year</option>
+      <option value="./js/population/bundle.js">Population By Country</option>
+      <option value="./js/population & religion/bundle.js">Population & Religion By Country</option>
+      <option value="./js/religion/bundle.js">Religion By Country</option>
+      <option value="./js/religion & population/bundle.js">Religion & Population By Country</option>
+      <option value="./js/temperature area/bundle.js">Temperature Area Chart</option>
+      <option value="./js/temperature line/bundle.js">Temperature Line Chart</option>
+    </select>
+  </div>
+  <script id="app"></script>
+</body>
+</html>
