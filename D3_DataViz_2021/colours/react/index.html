@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Data with React & D3</title>
+  <script src="http://localhost:8080/JavaScript/IPI/js/react.development.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/react-dom.development.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/d3.min.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/IPI/script.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body onload="reload('http://localhost:8080/JavaScript/D3_DataViz_2021/');">
+  <div class="container">
+    <select id="sel" onChange="changeSrc(selectedIndex, value);">
+      <option value="">Select an Example</option>
+      <option value="../d3Methods/">Colours Data - D3 Methods</option>
+      <option value="../vanilla/">Colours Data - Using Vanilla JavaScript</option>
+      <option value="./js/message/bundle.js">Formatted Data Properties</option>
+      <option value="./js/exploding pie/bundle.js">Radial Burst of Colours</option>
+      <option value="./js/pie/bundle.js">D3 Radial Burst of Colours</option>
+    </select>
+  </div>
+  <div id="root"></div>
+  <script id="app"></script>
+</body>
+</html>

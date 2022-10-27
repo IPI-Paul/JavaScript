@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smiley Face Part 1</title>
+  <style>
+    body {
+      margin: 0; 
+      overflow: hidden;
+    }
+  </style>
+  <script src="http://localhost:8080/JavaScript/IPI/js/react.production.min.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/react-dom.production.min.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/d3.min.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/IPI/script.js"></script>
+</head>
+<body onload="reload('http://localhost:8080/JavaScript/D3_DataViz_2021/');">
+  <div class="container">
+    <select id="sel" onChange="changeSrc(selectedIndex, value);">
+      <option value="">Select an Example</option>
+      <option value="./d3Methods/">Colours Data - D3 Methods</option>
+      <option value="./react/">Colours Data - Using React</option>
+      <option value="./vanilla/">Colours Data - Using Vanilla JavaScript</option>
+    </select>
+  </div>
+  <div id="root"></div>
+  <script id="app"></script>
+</body>
+</html>
