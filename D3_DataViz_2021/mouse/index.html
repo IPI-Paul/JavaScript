@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mouse Follower</title>
+  <script src="http://localhost:8080/JavaScript/IPI/js/react-16.9.0.development.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/react-dom-16.9.0.development.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/d3-5.11.0.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/ipi.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/IPI/script.js"></script>
+</head>
+<body onload="reload('http://localhost:8080/JavaScript/D3_DataViz_2021/');">
+  <div class="container">
+    <select id="sel" onChange="changeSrc(selectedIndex, value);">
+      <option value="">Select an Example</option>
+      <option value="js/getPosition/bundle.js">Get Mouse Pointer Position</option>
+      <option value="js/useCallbacks/bundle.js">Get Mouse Pointer Position using useCallback</option>
+      <option value="js/useStates/bundle.js">Get Mouse Pointer Position using useState</option>
+      <option value="js/vanilla/bundle.js">Get Mouse Pointer Position without Hooks</option>
+    </select>
+  </div>
+  <div id="root">
+    <br>Will be replaced if working!
+    <br><br> React Hooks do not work with JavaScript!
+  </div>
+  <script id="app"></script>
+</body>
+</html>

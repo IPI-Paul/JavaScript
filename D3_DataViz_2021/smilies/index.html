@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smiley Faces</title>
+  <style>
+    body {
+      margin: 0; 
+      overflow: hidden;
+    }
+  </style>
+  <script src="http://localhost:8080/JavaScript/IPI/js/react.production.min.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/react-dom.production.min.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/d3.min.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/IPI/script.js"></script>
+</head>
+<body onload="reload('http://localhost:8080/JavaScript/D3_DataViz_2021/');">
+  <div class="container">
+    <select id="sel" onChange="changeSrc(selectedIndex, value);">
+      <option value="">Select an Example</option>
+      <option value="./html/">Smiley using SVG and HTML only</option>
+      <option value="./smiley/bundle.js">Smilies - Using React, React-Dom and D3 First Example</option>
+      <option value="./smiley-modular/bundle.js">Smilies - Modular Example</option>
+      <option value="./vanilla/bundle.js">Smiley using Vanilla JavaScript and SVG</option>
+      <option value="./smiley-multi/bundle.js">Smilies - Multi Example</option>
+      <option value="./smiley-compartment/bundle.js">Smilies - Compartmental Example</option>
+      <option value="./smiley-array/bundle.js">Smilies - Array Example</option>
+    </select>
+  </div>
+  <div id="root"></div>
+  <script id="app"></script>
+</body>
+</html>
