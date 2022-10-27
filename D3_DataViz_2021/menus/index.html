@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Examples</title>
+  <script src="http://localhost:8080/JavaScript/IPI/js/react.production.min.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/react-dom.production.min.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/d3.min.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/ipi.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/IPI/script.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="reload('http://localhost:8080/JavaScript/D3_DataViz_2021/');">
+  <div class="container">
+    <select id="sel" onChange="changeSrc(selectedIndex, value);">
+      <option value="">Select an Example</option>
+      <option value="js/native/bundle.js">Menu - Native HTML Select</option>
+      <option value="js/component/bundle.js">Menu Component - Native HTML Select</option>
+      <option value="js/useState/bundle.js">Menu useState - Native HTML Select</option>
+      <option value="js/scatterplot/bundle.js">Scatterplot with Menus</option>
+      <option value="js/polished scatterplot/bundle.js">Polished Scatterplot with Menus - react-dropdown Not Working</option>
+      <option value="js/coloured scatterplot/bundle.js">Coloured Scatterplot with Menus</option>
+      <option value="js/colour legend/bundle.js">Coloured Scatterplot with Menus & Legend</option>
+      <option value="js/interactive legend/bundle.js">Interactive Scatterplot Colour Legend</option>
+    </select>
+  </div>
+  <br>
+  <div id="root"></div>
+  <script id="app"></script>
+</body>
+</html>

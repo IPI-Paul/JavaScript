@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.marks .country, .marks .land {
+  fill: #137b80;
+}
+.marks .sphere {
+  fill: #ececec;
+}
+.marks .graticules, .marks .pGraticules, .marks .interiors, .marks .pInteriors {
+  fill: none;
+}
+.marks .interiors {
+  stroke: #339498;
+}
+.marks .graticules{
+  stroke: #dadada;
+}
+.marks .pLand {
+  fill: #ececec;
+}
+.marks .pSphere {
+  fill: #fbfbfb;
+}
+.marks .pInteriors {
+  stroke: #d9dfe0;
+}
+.marks .pGraticules {
+  stroke: #ececec;
+}
+circle {
+  fill: #137B80;
+  opacity: 0.3;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Migrant Deaths</title>
+  <script src="http://localhost:8080/JavaScript/IPI/js/react.development.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/react-dom.development.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/d3.min.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/topojson-3.0.2.min.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/ipi.js"></script>
+  <script src="http://localhost:8080/JavaScript/IPI/js/IPI/script.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="reload('http://localhost:8080/JavaScript/D3_DataViz_2021/');">
+  <div class="container">
+    <select id="sel" onChange="changeSrc(selectedIndex, value);">
+      <option value="">Select an Example</option>
+      <option value="./js/time/linear/bundle.js">Migrant Deaths/Missing - Working With Time</option>
+      <option value="./js/aggregate/bundle.js">Migrant Deaths/Missing - Aggregated</option>
+      <option value="./js/mapped/bundle.js">Migrant Deaths/Missing - Mapped</option>
+      <option value="./js/multiple views/bundle.js">Migrant Deaths/Missing - Multiple Views</option>
+      <option value="./js/brushing/bundle.js">Migrant Deaths/Missing - Brushing</option>
+      <option value="./js/optimised/bundle.js">Migrant Deaths/Missing - Brushing Optimised</option>
+      <option value="./js/time/log/bundle.js">Migrant Deaths/Missing - Working With Time Log Scale</option>
+    </select>
+  </div>
+  <div id="root"></div>
+  <script id="app"></script>
+</body>
+</html>

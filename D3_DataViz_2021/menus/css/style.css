@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+label, #root select {
+  font-size: 1.5em;
+}
+#root select option {
+  font-size: 1rem;
+}
+.tick line {
+  stroke: #C0C0BB;
+}
+.tick text {
+  fill: #635F5D;
+  cursor: default;
+}
+.mark {
+  fill: #137b80;
+}
+.axis-label {
+  font-size: 1.5em;
+  fill: #635F5D;
+}
+.dropdown-label {
+  margin-left: 50px;
+  margin-right: 10px;
+}
+.menus-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menus-container select {
+  border: none;
+  background-color: white;
+}
+.legend-label {
+  font-size: 2em;
+  fill: #635F5D;
+}
