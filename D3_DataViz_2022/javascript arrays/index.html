@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Arrays</title>
+  <script src="../_Source Files and Scripts/JavaScript/d3.js"></script>
+  <script src="../_Source Files and Scripts/JavaScript/IPI/script.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body onload="reload('../');">
+  <div class="container">
+    <select id="sel" onChange="changeSrc(selectedIndex, value);">
+      <option value="">Select an Example</option>
+      <option value="js/index.js#simple array">Simple Array</option>
+      <option value="js/index.js#range function">Range Function</option>
+      <option value="js/index.js#forEach">forEach Loop</option>
+      <option value="js/index.js#filter">filter Function</option>
+      <option value="js/index.js#sort">sort Function</option>
+      <option value="js/index.js#reverse">reverse Function</option>
+      <option value="js/index.js#sort default">Default sort is Alphabetic</option>
+      <option value="js/index.js#number sort">Imply Numeric Sort</option>
+      <option value="js/index.js#number reverse sort">Imply Numeric Reverse Sort</option>
+      <option value="js/index.js#numbered sort">Imply Sort Using 1 or -1</option>
+      <option value="js/index.js#sort with equals">Apply Sort Including equals</option>
+      <option value="js/index.js#sort with d3 ascending">Apply Sort with D3 Ascending</option>
+      <option value="js/index.js#sort with d3 comparitors">Apply Sort with D3 Comparitors</option>
+      <option value="js/index.js#sort with d3 descending">Apply Sort with D3 Descending</option>
+      <option value="js/index.js#map">map Function</option>
+      <option value="js/index.js#map object">map to Object Function</option>
+      <option value="js/index.js#reduce">reduce Function</option>
+      <option value="js/index.js#reduce verbose">reduce Function Verbose</option>
+      <option value="js/index.js#reduce to object">Object from Key Value Pairs with reduce</option>
+      <option value="js/index.js#sort keys">Sort Object by Keys</option>
+      <option value="js/index.js#sort object with d3">Sort Object with D3</option>
+    </select>
+  </div>
+  <div id="root"></div>
+  <div id="outHTML"></div>
+</body>
+</html>

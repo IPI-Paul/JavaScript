@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+#outHTML iframe {
+  border: none;
+}
+h3, pre {
+  margin: 5px;
+}
+pre {
+  font-size: 1.15em;
+}
+.plot1 .tick text {
+  font-size: 16px;
+}
+.menu-container {
+  position: fixed;
+  top: 30px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.menu-container select {
+  border: none;
+  background: transparent;
+}
+.menu-container, .menu-container select, .x-axis-label, .y-axis-label {
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+.x-axis-label text {
+  fill: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}

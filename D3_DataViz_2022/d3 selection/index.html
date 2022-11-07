@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D3 Selection Exploration</title>
+  <script src="../_Source Files and Scripts/JavaScript/d3.js"></script>
+  <script src="../_Source Files and Scripts/JavaScript/IPI/script.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body onload="reload('../');">
+  <div class="container">
+    <select id="sel" onChange="changeSrc(selectedIndex, value);">
+      <option value="">Select an Example</option>
+      <option value="js/exploration/index.js">D3 Selection Exploration</option>
+      <option value="js/refactored/index.js">D3 Selection Refactored</option>
+      <option value="js/modular/index.js">D3 Selection Modular</option>
+    </select>
+  </div>
+  <div id="root"></div>
+  <div id="outHTML"></div>
+</body>
+</html>

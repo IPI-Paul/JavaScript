@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG</title>
+  <script src="../_Source Files and Scripts/JavaScript/IPI/script.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="reload('../');">
+  <div class="container">
+    <select id="sel" onChange="changeSrc(selectedIndex, value);">
+      <option value="">Select an Example</option>
+      <option value="./html/fundamentals/index.html">SVG Fundamentals</option>
+      <option value="./html/pseudo scatter plot/index.html">Pseudo Scatter Plot</option>
+      <option value="./html/pseudo bar chart/index.html">Pseudo Bar Chart</option>
+      <option value="./html/pseudo column chart/index.html">Pseudo Column Chart</option>
+      <option value="./html/pseudo line chart/index.html">Pseudo line Chart</option>
+    </select>
+  </div>
+  <div id="outHTML"></div>
+  <div id="root"></div>
+</body>
+</html>

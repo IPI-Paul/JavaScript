@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D3 Scatter Plot</title>
+  <script src="../_Source Files and Scripts/JavaScript/d3.js"></script>
+  <script src="../_Source Files and Scripts/JavaScript/IPI/script.js"></script>
+  <script src="../_Source Files and Scripts/JavaScript/IPI/iris.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body onload="reload('../');">
+  <div class="container">
+    <select id="sel" onChange="changeSrc(selectedIndex, value);">
+      <option value="">Select an Example</option>
+      <option value="js/vanilla/index.js">D3 Scatterplot - Vanilla HTML</option>
+      <option value="js/reusable scatter plot/index.js">D3 Reusable Scatter Plot</option>
+      <option value="js/scatter plot with symbols/index.js">D3 Reusable Scatter Plot with Symbols</option>
+      <option value="js/dynamic scatter plot/index.js">D3 Dynamic Reusable Scatter Plot</option>
+      <option value="js/animated/buggy transition/index.js">D3 Animated Reusable Scatter Plot - Buggy Transition</option>
+      <option value="js/animated/transition/index.js">D3 Animated Reusable Scatter Plot - Transition</option>
+      <option value="js/animated/menus/index.js">D3 Animated Reusable Scatter Plot with Menus</option>
+      <option value="js/animated/scalePoint/index.js">D3 Animated Reusable Scatter Plot with Menus Including Species</option>
+    </select>
+  </div>
+  <div id="root"></div>
+  <div id="outHTML"></div>
+</body>
+</html>

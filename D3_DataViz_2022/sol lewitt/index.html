@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sol Lewitt</title>
+  <script src="../_Source Files and Scripts/JavaScript/d3.js"></script>
+  <script src="../_Source Files and Scripts/JavaScript/IPI/script.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="reload('../');">
+  <div class="container">
+    <select id="sel" onChange="changeSrc(selectedIndex, value);">
+      <option value="">Select an Example</option>
+      <option value="js/reproduction/vertical/index.js">SVG Vertical Lines</option>
+      <option value="js/reproduction/horizontal/index.js">SVG Horizontal Lines with Mask</option>
+      <option value="js/reproduction/mask/index.js">Sol Lewitt Reproduction</option>
+      <option value="js/reproduction with d3/marks/index.js">SVG Horizontal Lines with D3</option>
+      <option value="js/reproduction with d3/range & class/index.js">Sol Lewitt Reproduction with D3 using Range & Classes</option>
+      <option value="js/reproduction with d3/range/index.js">Sol Lewitt Reproduction with D3 using Range</option>
+      <option value="js/reproduction with d3/full/index.js">Sol Lewitt Reproduction with D3 using Symbol</option>
+      <option value="js/reproduction with d3/multiple/index.js">Sol Lewitt Reproduction with D3 using Multiple Symbols</option>
+    </select>
+  </div>
+  <br>
+  <div id="outHTML"></div>
+  <div id="root"></div>
+</body>
+</html>
