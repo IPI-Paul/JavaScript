@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shapes with SVG CSS</title>
+  <script src="../_Source Files and Scripts/JavaScript/d3.js"></script>
+  <script src="../_Source Files and Scripts/JavaScript/IPI/script.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body onload="reload('../');">
+  <div class="container">
+    <select id="sel" onChange="changeSrc(selectedIndex, value);">
+      <option value="">Select an Example</option>
+      <option value="html/index.html">HTML SVG Element</option>
+      <option value="js/face/index.js">Let's make a face with D3.js</option>
+      <option value="js/animated/index.js">Animated face with D3.js</option>
+      <option value="js/fruit/exit/index.js">Bowl of Fruit - General Update Pattern (exit)</option>
+      <option value="js/fruit/update/index.js">Bowl of Fruit - General Update Pattern (update)</option>
+      <option value="js/fruit/merge/index.js">Bowl of Fruit - General Update Pattern (merge)</option>
+      <option value="js/fruit/animated/index.js">Bowl of Fruit - General Update Pattern (animated)</option>
+      <option value="js/fruit/labelled/index.js">Bowl of Fruit - General Update Pattern (labelled)</option>
+      <option value="js/fruit/grouped/index.js">Bowl of Fruit - General Update Pattern (grouped)</option>
+      <option value="js/fruit/singular/index.js">Bowl of Fruit - General Update Pattern (singular)</option>
+      <option value="js/fruit/interactions/clicked/index.js">Bowl of Fruit - General Update Pattern (interactions)</option>
+      <option value="js/fruit/interactions/unidirectional/index.js">Bowl of Fruit - General Update Pattern (unidirectional)</option>
+      <option value="js/fruit/interactions/hovered/index.js">Bowl of Fruit - General Update Pattern (hover)</option>
+    </select>
+  </div>
+  <div id="data"></div>
+  <div id="root"></div>
+  <pre id="code"></pre>
+  <div id="outHTML"></div>
+</body>
+</html>

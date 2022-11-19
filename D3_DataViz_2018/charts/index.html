@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charts and Plots with SVG CSS</title>
+  <script src="../_Source Files and Scripts/JavaScript/d3.js"></script>
+  <script src="../_Source Files and Scripts/JavaScript/topojson-3.0.2.js"></script>
+  <script src="../_Source Files and Scripts/JavaScript/IPI/script.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body onload="reload('../');">
+  <div class="container">
+    <select id="sel" onChange="changeSrc(selectedIndex, value);">
+      <option value="">Select an Example</option>
+      <option value="js/bar chart/index.js">Making a Bar Chart</option>
+      <option value="js/custom axes/index.js">Customising Axes</option>
+      <option value="js/scatter plot/cars/plain/index.js">Cars Scatter Plot</option>
+      <option value="js/scatter plot/cars/with menu/index.js">Cars Scatter Plot with Menus (home exercise)</option>
+      <option value="js/scatter plot/cars/menus/index.js">Cars Scatter Plot with Menus</option>
+      <option value="js/scatter plot/temperature/index.js">Temperature Scatter Plot</option>
+      <option value="js/line chart/temperature/index.js">Temperature Line Chart</option>
+      <option value="js/line chart/multi/index.js">Temperature Line Chart with Multiple Lines</option>
+      <option value="js/line chart/melting/index.js">Melting Population Data for Multiple Lines</option>
+      <option value="js/line chart/selecting/index.js">Selecting a Year on Population Data Line Chart</option>
+      <option value="js/area chart/temperature/index.js">Temperature Area Chart</option>
+      <option value="js/area chart/population/index.js">Pouplation Area Chart</option>
+    </select>
+  </div>
+  <div id="data"></div>
+  <div id="root"></div>
+  <pre id="code"></pre>
+  <div id="outHTML"></div>
+</body>
+</html>
