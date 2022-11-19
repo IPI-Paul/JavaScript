@@ -1,6 +1,6 @@
 [Data Visualization with D3 - Full Course 2018](https://m.youtube.com/watch?v=_8V5o2UHG0E)
 
-Another great course by Curran Kelleher. In my usual manner, I followed along by converting what I could to run on my computer and needing to connect to the internet.
+Another great course by Curran Kelleher. In my usual manner, I followed along by converting what I could to run on my computer and not needing to connect to the internet.
 
 I now feel a bit more confident, as I have done 3 courses starting with 2021, then 2022 and now 2018. So, unlike Curran you may notice my coding style changes (hopefully improves) in that order.
 
