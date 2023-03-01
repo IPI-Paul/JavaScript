@@ -1,0 +1,91 @@
+<div class="container-xl">
+  <!--<div class="table-responsive"> -->
+    <div class="table-wrapper">
+      <div class="table-title">
+        <div class="row">
+          <div class="col-sm">
+            <h2><b>Users</b></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <input
+              type="file" 
+              (change)="onUploadFile($event)" 
+              multiple 
+            />
+          </div>
+          <div class="col-sm">
+            <select
+                id="mySelect"
+                (change)="runThis($event)"
+              >
+              <option value="">Select an operation</option>
+              <option 
+                *ngFor="let action of actions" 
+                [value]="action.name"
+              >{{action.name}}</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <!--<div class="col-sm">-->
+            <progress *ngIf="fileStatus.percentage" [value]="fileStatus.percentage" max="100"></progress>
+          <!--</div>-->
+        </div>
+        <div class="row">
+          <textarea *ngIf="textFile" [value]="textFile"></textarea>
+        </div>
+      </div>
+    </div>
+  <!--</div>-->
+</div>
+<table 
+  *ngIf="users && !textFile"
+  class="table table-sm table-striped table-hover"
+>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Username</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Website</th>
+      <th
+        *ngIf="hasAdmins()"
+      >Admins</th>
+      <th
+        *ngIf="users[0].image"
+      >Picture</th>
+    </tr>
+  </thead>
+  <tbody
+    *ngFor="let user of users; let number = index"
+  >
+    <tr
+        (click)="setId(user.id || number + 1)"
+      >
+      <td>#{{ number + 1 }}</td>
+      <td *ngFor="let td of [user.name, user.username, user.email, user.phone, user.website]">
+        {{ td }}
+      </td>
+      <td
+        *ngIf="hasAdmins()"
+      >
+        {{user.isAdmin}}
+      </td>
+      <td 
+        *ngIf="user.image"
+      >
+        <img
+          [src]="user.image" 
+          height="50" 
+          width="50" 
+          class="avatar"
+          alt="Avatar"
+        >
+      </td>
+    </tr>
+  </tbody>
+</table>
