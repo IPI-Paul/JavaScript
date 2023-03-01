@@ -1,0 +1,35 @@
+<div class="container-xl">
+  <!--<div class="table-responsive"> -->
+    <div class="table-wrapper">
+      <div class="table-title">
+        <div class="row">
+          <div class="col-sm">
+            <h2><b>{{ mainHeading }}</b></h2>
+          </div>
+        </div>        
+      </div>
+    </div>
+  <!--</div>-->
+</div>
+<table class="table table-sm table-striped table-hover">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Url</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr 
+      *ngFor="#video of videos"
+      (click)="setId(video.id || 1)"
+    >
+      <td
+          *ngFor="#field of [video.id, video.title, video.desc, video.videoUrl]"
+      >
+        <playlist [video]="field"></playlist>
+      </td>
+    </tr>
+  </tbody>
+</table>

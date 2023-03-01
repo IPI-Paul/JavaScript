@@ -1,0 +1,16 @@
+{
+  "Videos": [
+    {
+      "id": 1,
+      "title": "Angular 2 Pt1",
+      "videoUrl": "file:/run/media/paul/3830-6532/Tutorials/Angular/Angular 2 for Beginners - Tutorial 1 - Getting Started.mp4",
+      "desc": "Tutorial 1"
+    },
+    {
+      "id": 2,
+      "title": "Angular 2 Pt2",
+      "videoUrl": "file:/run/media/paul/3830-6532/Tutorials/Angular/Angular 2 for Beginners - Tutorial 2 - Overview and Core Concepts.mp4",
+      "desc": "Tutorial 1"
+    }
+  ]
+}
