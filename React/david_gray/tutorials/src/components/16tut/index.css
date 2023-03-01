@@ -1,0 +1,225 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  background-color: #efefef;
+}
+#root {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+} */
+.Tut16 {
+  width: 100%;
+  max-width: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #333;
+  box-shadow: 0px 0px 15px gray;
+  margin: auto;
+}
+.Tut16 .Header, .Tut16 .Footer {
+  width: 100%;
+  background-color: #66d8f5;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Tut16 .Header h1 {
+  font-size: 1.5rem;
+}
+.Tut16 .Header svg {
+  font-size: 2rem;
+}
+.Tut16 .Footer {
+  padding: .075rem;
+  display: grid;
+  place-content: center;
+}
+.Tut16 .Nav {
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Tut16 .searchform {
+  width: 80%;
+  padding: 1rem 0 0 0.75rem;
+}
+.Tut16 .searchform input[type='text'] {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  min-height: 48px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+}
+.Tut16 .searchform label {
+  position: absolute;
+  left: -99999px;
+}
+.Tut16 .Nav ul {
+  color: #fff;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.Tut16 .Nav li {
+  padding: 1rem;
+}
+.Tut16 .Nav li:hover, .Tut16 .Nav li:focus {
+  padding: 1rem;
+}
+.Tut16 .Nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+.Tut16 .Nav li:hover, .Tut16 .Nav li:focus, .Tut16 .Nav li:hover a,
+.Tut16 .Nav li:focus a {
+  background-color: #eee;
+  color: #333;
+}
+.Tut16 .Nav li:hover a, .Tut16 .Nav li:focus a {
+  cursor: pointer;
+}
+.Tut16 .Home, .Tut16 .NewPost, .Tut16 .PostPage, .Tut16 .About, 
+.Tut16 .Missing {
+  width: 100%;
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #fff;
+}
+.Tut16 .post {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightgray;
+}
+.Tut16 .Home .post a {
+  text-decoration: none;
+}
+.Tut16 .Home .post a, .Tut16 .Home .post a:visited {
+  color: #000;
+}
+.Tut16 .post:first-child {
+  margin-top: 0;
+}
+.Tut16 .post:last-child {
+  border-bottom: none;
+}
+.Tut16 .postDate {
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+.Tut16 .postBody {
+  margin: 1rem 0;
+}
+.Tut16 .newPostForm {
+  display: flex;
+  flex-direction: column;
+}
+.Tut16 .newPostForm label {
+  margin-top: 1rem;
+}
+.Tut16 .newPostForm input[type='text'], .Tut16 .newPostForm textarea {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  min-height: 48px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+  outline: none;
+}
+.Tut16 .newPostForm textarea {
+  height: 100px;
+}
+.Tut16 .newPostForm button {
+  margin-top: 1rem;
+  height: 48px;
+  min-width: 48px;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.Tut16 .Missing h2, .Tut16 .PostPage h2, .Tut16 .Missing p, 
+.Tut16 .PostPage p {
+  margin-bottom: 1rem;
+}
+.Tut16 .PostPage button {
+  height: 48px;
+  min-width: 48px;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+.Tut16 .deleteButton {
+  background-color: red;
+}
+.Tut16 .editButton {
+  background-color: #333;
+}
+.Tut16 .statusMsg {
+  margin-top: 2rem;
+}
+@media only screen and (min-width: 610px) {
+  .Tut16 html {
+    font-size: 22px;
+  }
+  .Tut16 .Header h1 {
+    font-size: 2rem;
+  }
+  .Tut16 .Nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Tut16 .Nav ul {
+    text-align: right;
+  }
+  .Tut16 .Nav li:hover, .Tut16 .Nav li:focus, .Tut16 .Nav li:hover a, 
+  .Tut16 .Nav li:focus a {
+    background-color: #eee;
+    color: #333;
+  }
+  .Tut16 .searchform {
+    width: 50%;
+    padding: 0.5rem 0;
+  }
+  .Tut16 .searchform input[type='text'] {
+    margin-left: 0.5rem;
+  }
+  .Tut16 .newPostForm textarea {
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .Tut16 .Header svg {
+    font-size: 3rem;
+  }
+}

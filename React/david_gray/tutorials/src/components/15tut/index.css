@@ -1,0 +1,38 @@
+/* html {
+  font-size: 22px;
+}
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+.Tut15 form {
+  width: 100%;
+}
+.Tut15 button {
+  width: 33.33%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.Tut15 button.selected {
+  background-color: #000;
+  color: #fff;
+}
+.Tut15 ul {
+  padding: 3rem 2rem 1rem;
+  margin-top: 1rem;
+  padding: 0 2rem 1rem;
+}
+.Tut15 li {
+  margin-bottom: 1rem;
+}
+.Tut15 .table-container {
+  width: 100%;
+  overflow-y: auto;
+  /* padding-top: 52px; */
+}
+.Tut15 td {
+  border: 1px solid #000;
+  padding: 0.25rem;
+}
