@@ -1,0 +1,8 @@
+<h1>{{title}}</h1>
+<p>Somebody owes me {{amount | currency: selCode}}</p>
+<p>
+  <select [(ngModel)]="ISOCode">
+    <option *ngFor="let iso of isoCodes" value="{{iso}}">{{iso}}</option>
+  </select>
+</p>
+<p>{{"This string will be reversed" | reverse:true:"singlequote"}}</p>

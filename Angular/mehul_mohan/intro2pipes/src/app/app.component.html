@@ -1,0 +1,12 @@
+<p>
+  <select [(ngModel)]="showComponent">
+    <option 
+      *ngFor="let component of components;" 
+      value="{{component}}"
+    >{{component}}</option>
+  </select>
+</p>
+<app-pipe *ngIf="getComponent === 'Pipes'"></app-pipe>
+<app-directive *ngIf="getComponent === 'Directives'"></app-directive>
+<p>This paragraph is a normal one</p>
+<p appRedBlack>This paragraph is a custom directive one</p>

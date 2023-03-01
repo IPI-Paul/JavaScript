@@ -1,0 +1,35 @@
+<div *ngIf="2>1">Yes! 2 is greater than 1</div>
+<div *ngIf="2<1">Yes! 2 is less than 1</div>
+<div *ngIf="someRandomValriable">Yes!!!</div>
+<div *ngIf="!someRandomValriable">No!!!</div>
+<div *ngIf="!someRandomValriable; else otherBlockContent">No!!!</div>
+<ng-template #otherBlockContent>
+  <h1>No!!!</h1>
+</ng-template>
+<div *ngIf="someRandomValriable; then trueBlock else falseBlock">No!!!</div>
+<ng-template #trueBlock>
+  <div>
+    <h1>Yess!!!</h1>
+  </div>
+</ng-template>
+<ng-template #falseBlock>
+  <div>
+    <h1>No, No, No, Nooooo!!!</h1>
+  </div>
+</ng-template>
+<h1>Interpolation</h1>
+<p>
+  Interpolation is the way Angular uses code to display varaibles inside your HTML using the curly braces. You can display a variable named <b>name</b> using <span ngNonBindable> {{name}}</span>
+</p>
+<ul>
+  <li *ngFor="let info of data">
+    <span 
+      [ngClass]="{
+        'javascript': info.lang === 'JavaScript', 
+        'swift': info.lang === 'Swift'
+      }"
+    >
+      {{info.lang}} is mostly used on {{info.usedOn}}
+    </span>
+  </li>
+</ul>
