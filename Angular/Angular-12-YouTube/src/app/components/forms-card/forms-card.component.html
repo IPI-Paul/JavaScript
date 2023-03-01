@@ -1,0 +1,19 @@
+<app-change-username 
+*ngIf="['Auto', 'Manual'].includes(getExample)"
+[getExample]="getExample"
+></app-change-username>
+<app-sms-app 
+*ngIf="['SMS'].includes(getExample)"
+></app-sms-app>
+<app-show-password 
+*ngIf="['Password'].includes(getExample)"
+></app-show-password>
+<app-amount-range 
+*ngIf="['Loan'].includes(getExample)"
+></app-amount-range>
+<app-theme 
+*ngIf="['Theme'].includes(getExample)"
+></app-theme>
+<app-user-register 
+*ngIf="['Register'].includes(getExample)"
+></app-user-register>
