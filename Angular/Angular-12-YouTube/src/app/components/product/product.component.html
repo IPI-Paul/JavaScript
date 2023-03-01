@@ -1,0 +1,18 @@
+<div class="card shadow-lg" *ngIf="product">
+  <div class="card-header">
+    <img [src]="product.image" alt="" class="img-fluid" />
+  </div>
+  <div class="card-body">
+    <ul class="list-group">
+      <li class="list-group-item">
+        Name: {{product.name}}
+      </li>
+      <li class="list-group-item">
+        Price: {{product.price | currency: 'GBP'}}
+      </li>
+      <li class="list-group-item">
+        Qty: {{product.qty}}
+      </li>
+    </ul>
+  </div>
+</div>
