@@ -1,0 +1,31 @@
+<table class="full">
+  <tr>
+    <td>
+      <h3>Components</h3>
+      Hello world. A custom component says <app-hello></app-hello>
+    </td>
+    <td>
+      <h3>Interpolation</h3>
+      <p>
+        <button (click)="showMouseCoords($event)">Where</button>
+      </p>
+      <div>{{coords}}</div>
+    </td>
+    <td>
+      <h3>Mirroring and Two Way Data Binding</h3> 
+      <p>
+        <input type="text" [value]="text" (input)="updateValue($event)" />
+      </p>
+      <div>{{text}}</div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>Two way databinding and mirroring with ngModel</h3>
+      <p>
+        <input type="text" [(ngModel)]="text1">
+      </p>
+      <div>{{text1}}</div>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,9 @@
+<select (change)="runExample($event)">
+  <option *ngFor="let example of examples;" [value]="example.action">{{example.description}}</option>
+</select>
+<select (change)="updateServer($event)">
+  <option *ngFor="let option of servers;" [selected]="option == server">{{option}}</option>
+</select>
+<app-examples *ngIf="showExamples"></app-examples>
+<app-header *ngIf="showOnline"></app-header>
+<router-outlet *ngIf="showOnline" #selServer></router-outlet>
