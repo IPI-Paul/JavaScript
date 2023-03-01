@@ -1,0 +1,18 @@
+.tracker {
+  background-color: #ff6c37;
+  min-height: 100vh;
+}
+.tracker .container {
+  display: flex;
+  flex-direction: column;
+  max-width: 380px;
+  padding: 25px;
+  text-align: center;
+  color: white;
+}
+.tracker .container button {
+  min-height: 50px;
+  font-size: 1.2em;
+  background-color: aliceblue;
+  border-radius: 5px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React Facts</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link 
+    rel="stylesheet" 
+    href="../_Source Files and Scripts/SourceFiles/css/bootstrap.min.css"
+  >
+  <script 
+    src="http://localhost:8080/JavaScript/IPI/js/bootstrap_5.0.2/bootstrap.min.js"
+  ></script>
+  <script 
+    crossorigin="anonymous"
+    src="http://localhost:8080/JavaScript/IPI/js/react_17.0.2/react.development.js">
+  </script>
+  <script 
+    crossorigin="anonymous"
+    src="http://localhost:8080/JavaScript/IPI/js/react_17.0.2/react-dom.development.js">
+  </script>
+  <script 
+    crossorigin="anonymous"
+    src="http://localhost:8080/JavaScript/IPI/js/babel_7.19.5/babel.min.js">
+  </script>
+  <script 
+    crossorigin="anonymous"
+    src="http://localhost:8080/JavaScript/IPI/js/html-react-parser_3.0.4/html-react-parser.min.js">
+  </script>
+  <script src="../_Source Files and Scripts/JavaScript/IPI/script.js"></script>
+  <script 
+    src="js/examples/index.js" 
+    id="inline-app" 
+    type='text/jsx'
+    data-presets='react' 
+    data-type='module'
+  ></script>
+</head>
+<body onload="reload('../')">
+  <div class="container">
+    <select id="sel" onChange="changeSrc(selectedIndex, value);">
+      <option value="">Select an Example</option>
+      <option value="js/examples/index.js#ex01">Hello Everyone</option>
+      <option value="js/examples/index.js#ex02">My Name is Bob</option>
+      <option value="js/examples/index.js#ex03">UL Example</option>
+      <option value="js/examples/index.js#ex04">Navbar</option>
+      <option value="js/examples/index.js#ex05">Javascript Imperative Programming</option>
+      <option value="js/examples/index.js#ex06">Javascript Declarative Programming</option>
+      <option value="js/examples/index.js#ex07">Only one parent element allowed</option>
+      <option value="js/examples/index.js#ex08">Simple Navbar</option>
+      <option value="js/examples/index.js#ex09">Append JSX using .append()</option>
+      <option value="js/examples/index.js#ex10">Fun Facts about React</option>
+      <option value="js/examples/index.js#ex11">Reasons for Learning React</option>
+      <option value="js/examples/index.js#ex12">Components in React</option>
+    </select> 
+    <p></p>
+  </div>
+  <div id="root"></div>
+  <div id="outHTML"></div>
+</body>
+</html>

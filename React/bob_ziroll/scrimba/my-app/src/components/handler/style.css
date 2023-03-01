@@ -1,0 +1,20 @@
+.handler-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.handler-container img {
+  width: 50%;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+.handler-container img:hover {
+  opacity: 0.9;
+}
+.handler-container button {
+  width: 50%;
+  height: 50px;
+}

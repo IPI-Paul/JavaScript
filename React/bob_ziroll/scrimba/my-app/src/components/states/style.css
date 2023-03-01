@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+.state {
+  display: flex;
+  background: rgb(17, 16, 16);
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  padding: 25px;
+}
+.state--title {
+  color: white;
+}
+.state--value {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 50%;
+  width: 80px;
+  align-items: center;
+}

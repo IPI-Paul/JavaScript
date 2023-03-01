@@ -1,0 +1,12 @@
+.hierarchy-header {
+  background-color: rgb(180, 200, 243);
+}
+.hierarchy-header, .hierarchy-body {
+  display: flex;
+  padding: 15px;
+  font-weight: bold;
+}
+.hierarchy-body {
+  background-color: rgb(250, 243, 243);
+  min-height: 100vh;
+}
