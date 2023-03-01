@@ -1,0 +1,126 @@
+{
+  "events_categories": [
+    {
+      "id": "london",
+      "title": "Events in London",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum delectus reiciendis autem modi, maxime hic ipsum accusamus. Earum ipsa ipsam quo natus voluptas consectetur cum?",
+      "image": "http://127.0.0.1:8080/SourceFiles/images/Poznan Square.jpg"
+    },
+    {
+      "id": "san-francisco",
+      "title": "Events in San Francisco",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum delectus reiciendis autem modi, maxime hic ipsum accusamus. Earum ipsa ipsam quo natus voluptas consectetur cum?",
+      "image": "http://127.0.0.1:8080/SourceFiles/images/Colt Steele - Clouds.png"
+    },
+    {
+      "id": "barcelona",
+      "title": "Events in Barcelona",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum delectus reiciendis autem modi, maxime hic ipsum accusamus. Earum ipsa ipsam quo natus voluptas consectetur cum?",
+      "image": "http://127.0.0.1:8080/SourceFiles/images/Colt Steele - Clouds.png"
+    }
+  ],
+  "allEvents": [
+    {
+      "id": "london-comic-con-winter",
+      "title": "London Comic Con Winter",
+      "city": "london",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum delectus reiciendis autem modi, maxime hic ipsum accusamus. Earum ipsa ipsam quo natus voluptas consectetur cum?",
+      "image": "http://127.0.0.1:8080/SourceFiles/images/Poznan Square.jpg",
+      "emails_registered": []
+    },
+    {
+      "id": "hyde-park-winter-wonderland",
+      "title": "Hyde Park Winter Wonderland",
+      "city": "london",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum delectus reiciendis autem modi, maxime hic ipsum accusamus. Earum ipsa ipsam quo natus voluptas consectetur cum?",
+      "image": "http://127.0.0.1:8080/SourceFiles/images/Colt Steele - Clouds.png",
+      "emails_registered": []
+    },
+    {
+      "id": "new-years-eve-in-london-2023",
+      "title": "New Years Eve in London 2023",
+      "city": "london",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum delectus reiciendis autem modi, maxime hic ipsum accusamus. Earum ipsa ipsam quo natus voluptas consectetur cum?",
+      "image": "http://127.0.0.1:8080/SourceFiles/images/Poznan Square.jpg",
+      "emails_registered": []
+    },
+    {
+      "id": "edtech-world-summit-2022",
+      "title": "Edtech World Summit 2022",
+      "city": "london",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum delectus reiciendis autem modi, maxime hic ipsum accusamus. Earum ipsa ipsam quo natus voluptas consectetur cum?",
+      "image": "http://127.0.0.1:8080/SourceFiles/images/Colt Steele - Clouds.png",
+      "emails_registered": [
+        "alicia@gmail.com",
+        "monica@gmail.com"
+      ]
+    },
+    {
+      "id": "sigala-at-electric-brixton",
+      "title": "Sigala at Electric Brixton",
+      "city": "london",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum delectus reiciendis autem modi, maxime hic ipsum accusamus. Earum ipsa ipsam quo natus voluptas consectetur cum?",
+      "image": "http://127.0.0.1:8080/SourceFiles/images/Poznan Square.jpg",
+      "emails_registered": [
+        "monica@gmail.com"
+      ]
+    },
+    {
+      "id": "kiss-haunted-house-party-2022",
+      "title": "KISS Haunted House Party 2022",
+      "city": "london",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum delectus reiciendis autem modi, maxime hic ipsum accusamus. Earum ipsa ipsam quo natus voluptas consectetur cum?",
+      "image": "http://127.0.0.1:8080/SourceFiles/images/Colt Steele - Clouds.png",
+      "emails_registered": []
+    },
+    {
+      "id": "sf-blockchain-week",
+      "title": "SF Blockchain Week",
+      "city": "san-francisco",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum delectus reiciendis autem modi, maxime hic ipsum accusamus. Earum ipsa ipsam quo natus voluptas consectetur cum?",
+      "image": "http://127.0.0.1:8080/SourceFiles/images/Poznan Square.jpg",
+      "emails_registered": [
+        "laura@gmail.com",
+        "james@gmail.com"
+      ]
+    },
+    {
+      "id": "fan-expo-san-francisco",
+      "title": "FAN EXPO San Francisco",
+      "city": "san-francisco",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum delectus reiciendis autem modi, maxime hic ipsum accusamus. Earum ipsa ipsam quo natus voluptas consectetur cum?",
+      "image": "http://127.0.0.1:8080/SourceFiles/images/Colt Steele - Clouds.png",
+      "emails_registered": []
+    },
+    {
+      "id": "innovation-summit-san-francisco",
+      "title": "Innovation Summit San Francisco",
+      "city": "san-francisco",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum delectus reiciendis autem modi, maxime hic ipsum accusamus. Earum ipsa ipsam quo natus voluptas consectetur cum?",
+      "image": "http://127.0.0.1:8080/SourceFiles/images/Poznan Square.jpg",
+      "emails_registered": [
+        "alicia@gmail.com",
+        "monica@gmail.com"
+      ]
+    },
+    {
+      "id": "world-congress-2022-barcelona",
+      "title": "World Congress 2022 - Barcelona",
+      "city": "barcelona",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum delectus reiciendis autem modi, maxime hic ipsum accusamus. Earum ipsa ipsam quo natus voluptas consectetur cum?",
+      "image": "http://127.0.0.1:8080/SourceFiles/images/Poznan Square.jpg",
+      "emails_registered": []
+    },
+    {
+      "id": "the-halloween-house-party",
+      "title": "The Halloween House Party",
+      "city": "barcelona",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum delectus reiciendis autem modi, maxime hic ipsum accusamus. Earum ipsa ipsam quo natus voluptas consectetur cum?",
+      "image": "http://127.0.0.1:8080/SourceFiles/images/Colt Steele - Clouds.png",
+      "emails_registered": [
+        "alicia@gmail.com",
+        "monica@gmail.com"
+      ]
+    }
+  ]
+}

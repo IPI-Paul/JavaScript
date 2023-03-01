@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Meowsalot"
+    ,"species": "cat"
+    ,"foods": {
+      "likes": ["tuna", "catnip"]
+      ,"dislikes": ["ham", "zucchini"]
+    }
+  }
+  ,{
+    "name": "Barky"
+    ,"species": "dog"
+    ,"foods": {
+      "likes": ["bones", "carrots"]
+      ,"dislikes": ["tuna"]
+    }
+  }
+  ,{
+    "name": "Purrpaws"
+    ,"species": "cat"
+    ,"foods": {
+      "likes": ["mice"]
+      ,"dislikes": ["cookies"]
+    }
+  }
+  ,{
+    "name": "Whiskers"
+    ,"species": "cat"
+    ,"foods": {
+      "likes": ["celery", "stawberries"]
+      ,"dislikes": ["carrots"]
+    }
+  }
+  ,{
+    "name": "Woof"
+    ,"species": "dog"
+    ,"foods": {
+      "likes": ["dog food"]
+      ,"dislikes": ["cat food"]
+    }
+  }
+  ,{
+    "name": "Fluffy"
+    ,"species": "cat"
+    ,"foods": {
+      "likes": ["canned food"]
+      ,"dislikes": ["dry food"]
+    }
+  }
+  ,{
+    "name": "Kitty"
+    ,"species": "cat"
+    ,"foods": {
+      "likes": ["fresh food"]
+      ,"dislikes": ["stale food"]
+    }
+  }
+  ,{
+    "name": "Pupster"
+    ,"species": "dog"
+    ,"foods": {
+      "likes": ["tomatoes", "peas"]
+      ,"dislikes": ["bread"]
+    }
+  }
+  ,{
+    "name": "Tux"
+    ,"species": "cat"
+    ,"foods": {
+      "likes": ["fancy dishes"]
+      ,"dislikes": ["basic cat food"]
+    }
+  }
+]

@@ -1,0 +1,5 @@
+.main {
+  width: 800px;
+  justify-content: center;
+  margin: var(--size-5) auto;
+}

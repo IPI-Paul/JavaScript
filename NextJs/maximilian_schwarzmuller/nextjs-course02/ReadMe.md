@@ -1,0 +1,1 @@
+React/Next.js Crash Course for Beginners 2021 - Learn NextJS from Scratch in this 100pct Free Tutorial[https://m.youtube.com/watch?v=KjY94sAKLlw]
