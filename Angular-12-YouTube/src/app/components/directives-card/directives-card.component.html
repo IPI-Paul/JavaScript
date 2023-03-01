@@ -1,0 +1,7 @@
+<app-auth-user 
+*ngIf="['Auth'].includes(getExample)"
+></app-auth-user>
+<app-shopping-card 
+*ngIf="['Inline', 'Modular'].includes(getExample)"
+[getExample]="getExample"
+></app-shopping-card>

@@ -1,0 +1,35 @@
+<section class="mt-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header bg-secondary text-white">
+            <p class="h4">Change Username ({{getExample}})</p>
+          </div>
+          <div class="card-body">
+            <form>
+              <input 
+                type="text" 
+                class="form-control" 
+                name="username" 
+                [(ngModel)]="username"
+                placeholder="Please enter your username"
+                *ngIf="getExample == 'Auto'"
+              />
+              <input 
+                type="text" 
+                class="form-control" 
+                [value]="username"
+                (input)="updateInput($event)" 
+                placeholder="Please enter your username"
+                *ngIf="getExample == 'Manual'"
+              />
+            </form>
+            <br />
+            <h3>{{username}}</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

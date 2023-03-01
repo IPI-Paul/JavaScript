@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <p class="h3">Country List</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam fugiat est praesentium reprehenderit suscipit ab tempora corporis doloremque voluptatum! Non necessitatibus earum quasi quod asperiores amet autem excepturi suscipit placeat!</p>
+    </div>
+  </div>
+</div>
+<div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <table class="table table-hover table-striped">
+        <thead class="bg-dark text-white">
+          <tr>
+            <th>Code</th>
+            <th>Flag</th>
+            <th>Name</th>
+            <th>Capital</th>
+            <th>Currency</th>
+            <th>Region Code</th>
+            <th>Region Name</th>
+            <th>Language</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr 
+            *ngFor="let country of countries"
+          >
+            <td class="text-center">
+              <a routerLink="/countries/{{country.code}}">{{country.code}}</a>
+            </td>
+            <td>
+              <img [src]="country.flag" alt="" class="img-fluid" width="50" height="50">
+            </td>
+            <td>{{country.name}}</td>
+            <td>{{country.capital}}</td>
+            <td>{{country.currency.code}}</td>
+            <td>{{country.region}}</td>
+            <td>{{getRegion(country.region)}}</td>
+            <td>{{country.language.name}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
