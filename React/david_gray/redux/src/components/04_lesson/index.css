@@ -1,0 +1,104 @@
+.Tut04 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: white;
+  color: #000;
+  max-height: calc(100vh - 45px);
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.Tut04 input, .Tut04 textarea, .Tut04 button, .Tut04 select {
+  font: inherit;
+  margin-bottom: 1em;
+  border-radius: 0.5rem;
+}
+.Tut04 header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: purple;
+  color: whitesmoke;
+  position: sticky;
+  top: 0;
+}
+.Tut04 nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.Tut04 nav ul {
+  list-style-type: none;
+}
+.Tut04 nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.Tut04 nav a, .Tut04 nav a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.Tut04 nav a:hover, .Tut04 nav a:focus {
+  text-decoration: underline;
+}
+.Tut04 main {
+  min-width: 500px;
+  max-width: 800px;
+  margin: auto;
+}
+.Tut04 section {
+  margin-top: 1em;
+  text-align: left;
+  /* width: 500px; */
+}
+.Tut04 article {
+  margin: 0.5em;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 1em;
+}
+.Tut04 h1 {
+  font-size: 2.5rem;
+}
+.Tut04 h2 {
+  margin-bottom: 1rem;
+}
+.Tut04 p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  margin: .05em 0;
+}
+.Tut04 form {
+  display: flex;
+  flex-direction: column;
+}
+.Tut04 textarea {
+  height: 200px;
+}
+.Tut04 .postCredit {
+  font-size: 1rem;
+}
+.Tut04 .postCredit a, .Tut04 .postCredit a:visited {
+  margin-right: 0.5rem;
+  color: black;
+}
+.Tut04 .postCredit a:hover, .Tut04 .postCredit a:focus {
+  color: hsla(0, 0%, 0%, 0.75);
+}
+.Tut04 .excerpt {
+  font-style: italic;
+}
+.Tut04 .reactionButton {
+  margin: 0 0.25em 0 0;
+  background: transparent;
+  border: none;
+  color: #000;
+  font-size: 1rem;
+}
+.Tut04 .deleteButton {
+  background-color: palevioletred;
+  color: white;
+}

@@ -1,0 +1,76 @@
+.Tut06 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+.Tut06 input[type='text'], .Tut06 button {
+  font: inherit;
+}
+.Tut06 main {
+  margin: auto;
+  max-width: 600px;
+}
+.Tut06 h1 {
+  margin-bottom: 0.5rem;
+}
+.Tut06 article {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid hsl(0, 0%, 58%);
+}
+.Tut06 .todo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Tut06 input[type='checkbox'] {
+  min-width: 30px;
+  min-height: 30px;
+  margin-right: 1rem;
+}
+.Tut06 button {
+  min-width: 50px;
+  min-height: 50px;
+  border: 1px solid #333;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.Tut06 .trash {
+  background-color: #fff;
+  color: mediumvioletred;
+}
+.Tut06 .trash:focus, .Tut06 .trash:hover {
+  filter: brightness(120%);
+}
+.Tut06 form {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #333;
+  margin-bottom: 1rem;
+}
+.Tut06 form label {
+  position: absolute;
+  left: -10000px;
+}
+.Tut06 .new-todo {
+  width: 100%;
+  padding-right: 30px;
+}
+.Tut06 input[type='text'] {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 0.5px solid #333;
+}
+.Tut06 .submit {
+  background-color: gray;
+  color: #fff;
+}
+.Tut06 .submit:focus, .Tut06 .submit:hover {
+  background-color: limegreen;
+}

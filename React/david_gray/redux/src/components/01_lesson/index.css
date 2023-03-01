@@ -1,0 +1,32 @@
+.Tut01 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: calc(100vh - 45px);
+  font-size: 5rem;
+  display: grid;
+  place-content: center;
+}
+.Tut01 input, .Tut01 button {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.Tut01 section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Tut01 input {
+  text-align: center;
+  max-width: 2.5em;
+}
+.Tut01 button {
+  font-size: 2rem;
+  margin: 0.5em 0 0.5em 0.5em;
+  min-width: 2em;
+}
+.Tut01 button:first-child {
+  margin-left: 0;
+}
