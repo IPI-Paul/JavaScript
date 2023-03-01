@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+.counter {
+  display: flex;
+  background: rgb(17, 16, 16);
+  flex-direction: row;
+  min-height: 100vh;
+  align-items: center;
+  align-content: center;
+  padding-left: 50px;
+}
+.counter--minus, .counter--plus {
+  color: white;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(105, 102, 102);
+  border-radius: 50%;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+}
+.counter--count {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 50%;
+  width: 80px;
+  align-items: center;
+}
+.counter--minus {
+  margin-right: -20px;
+  z-index: 1;
+}
+.counter--plus {
+  margin-left: -20px;
+  z-index: 1;
+}
+.counter--minus:hover, .counter--plus:hover {
+  background-color: rgb(59, 59, 59);
+} 

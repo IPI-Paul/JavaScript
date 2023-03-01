@@ -1,0 +1,97 @@
+.funFacts-nav, .funFacts-light, .funFacts-dark {
+  min-height: 20vh;
+  display: flex;
+  padding: 30px 25px;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+.funFacts-nav, .funFacts-dark {
+  background-color: #282c34;
+  color: white;
+}
+.funFacts-nav .nav-icon, .funFacts-light .nav-icon, .funFacts-dark .nav-icon {
+  width: 60px;
+  margin-right: 7px;
+}
+.funFacts-nav .nav--logo_text, .funFacts-light .nav--logo_text, 
+.funFacts-dark .nav--logo_text {
+  color: #61DAFB;
+  margin-right: auto;
+  font-size: 22px;
+}
+.funFacts-nav .nav-items {
+  list-style: none;
+  display: flex;
+}
+.funFacts-nav .nav-items li {
+  padding: 10px;
+}
+.funFacts-main, .funFacts-main-dark, .funFacts-main-light {
+  min-height: 80vh;
+  min-width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 57px 27px;
+  background-image: url(../../images/react-icon-small-gray.png);
+  background-repeat: no-repeat;
+  background-position-x: 110%;
+  background-position-y: center;
+}
+.funFacts-main, .funFacts-main-dark {
+  background-color: #343944;
+  color: white;
+}
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+.main--facts li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+.main--facts li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
+.funFacts-light .toggler, .funFacts-dark .toggler {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+.funFacts-light .toggler--slider, .funFacts-dark .toggler--slider {
+  position: relative;
+  top: 12px;
+  width: 35px;
+  max-height: 20px;
+  align-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+}
+.funFacts-light .toggler--slider {
+  background-color: black;
+}
+.funFacts-dark .toggler--slider {
+  background-color: white;
+}
+.funFacts-light .toggler--slider--circle, .funFacts-dark .toggler--slider--circle {
+  position: relative;
+  top: 0px;
+  width: 17px;
+  height: 17px;
+  z-index: 1;
+  margin: 1px;
+  border-radius: 15px;
+}
+.funFacts-light .toggler--slider--circle {
+  background-color: white;
+}
+.funFacts-dark .toggler--slider--circle {
+  background-color: black;
+  left: 16px;
+}

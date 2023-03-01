@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+#my-form, .newsletter-container form {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+#my-form {
+  max-width: 280px;
+}
+.newsletter-container form {
+  max-width: 220px;
+}
+#my-form input, #my-form label, #my-form textarea, #my-form fieldset,
+#my-form select, .newsletter-container input {
+  margin: 7.5px;
+}
+.newsletter-container input {
+  min-height: 35px;
+  border-radius: 5px;
+}
+#my-form input, #my-form textarea, #my-form fieldset {
+  border-radius: 10px;
+}
+#my-form label {
+  font-weight: bold;
+}
+#my-form button, .newsletter-container button {
+  max-width: 80px;
+  height: 30px;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+.newsletter-container .submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newsletter-container, .newsletter-container button {
+  background-color: rgb(82, 16, 82);
+}
+.newsletter-container button {
+  color: white;
+  min-width: 120px;
+  min-height: 40px;
+  border-radius: 10px;
+}
+.newsletter-container {
+  min-height: 100vh;
+}
+.newsletter-container .form {
+  background-color: whitesmoke;
+  margin-left: 25px;
+  border-radius: 15px;
+}
+.form--marketing {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}

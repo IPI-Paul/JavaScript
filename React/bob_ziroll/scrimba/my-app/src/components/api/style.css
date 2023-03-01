@@ -1,0 +1,9 @@
+.api-btn {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  padding: 10px;
+}
+.api-btn button {
+  margin: 5px;
+}

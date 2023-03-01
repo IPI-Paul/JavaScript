@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.contacts {
+  display: flex;
+  align-content: space-between;
+  padding: 10px;
+}
+.contact-card {
+  margin-right: auto;
+}
+.info-group {
+  display: flex;
+  align-content: space-between;
+}
+.info-group img {
+  width: 15px;
+  margin-right: 10px;
+}
+img {
+  width: 200px;
+}
