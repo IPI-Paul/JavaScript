@@ -1,0 +1,1 @@
+insert into whatsAppUsers (uid) values (1);

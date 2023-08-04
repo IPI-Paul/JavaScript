@@ -1,0 +1,10 @@
+drop table if exists messages; 
+drop table if exists chats; 
+drop table if exists whatsAppUsers; 
+drop table if exists whatsAppLogin; 
+source ./create/whatsAppLogin.sql;
+source ./create/whatsAppUsers.sql;
+source ./create/chats.sql;
+source ./create/messages.sql;
+source ./insert/logins.sql;
+source ./insert/users.sql;
